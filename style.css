@@ -1,0 +1,10 @@
+#bridge {
+    display: block;
+    margin: 0 auto;
+    background-image: url('https://sun9-59.userapi.com/impg/fp2FrG4lv4ihpMEwjwlmIfCOOky1HcSu-ssHpg/IfsR0pOkfiQ.jpg?size=840x400&quality=96&sign=be983ddc3e1289f5c70288dfc91fa718&type=album');
+    background-size: cover;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    cursor: move;
+}
