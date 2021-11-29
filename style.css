@@ -1,10 +1,86 @@
-#bridge {
-    display: block;
-    margin: 0 auto;
-    background-image: url('https://sun9-59.userapi.com/impg/fp2FrG4lv4ihpMEwjwlmIfCOOky1HcSu-ssHpg/IfsR0pOkfiQ.jpg?size=840x400&quality=96&sign=be983ddc3e1289f5c70288dfc91fa718&type=album');
-    background-size: cover;
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    cursor: move;
+body {
+  padding: 20px 0;
+  background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+
+.container {
+  box-shadow: 0 0 5px;
+  position: relative;
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+}
+
+/* блок формы карточек */
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1400px;
+  margin: 100px auto;
+}
+.cards a{
+  margin-right: 20px;
+}
+.cards .new-cat{
+  margin-bottom: 10px;
+  border-radius: 80%;
+  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+.cards .new-cat:hover{
+  -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+}
+/* блок детальной страницы и рекомендаций*/
+.detail-page{
+  display: none;
+  margin: 20px auto;
+}
+.btn{
+  font-size: 20pt;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 0 41% 10px;
+}
+.btn:hover{
+  background-color: #008CBA;
+  color: white;
+}
+.block-rec{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+h3{
+  margin: 0 auto;
+  width: 1200px;
+}
+.block-rec a{
+  margin-right: 20px;
+}
+.recom img{
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+.recom img:hover{
+  transition: 1s; /* Время эффекта */
+  transform: scale(1.2); /* Увеличиваем масштаб */
 }
