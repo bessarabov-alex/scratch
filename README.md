@@ -1,4 +1,5 @@
-# scratch for order
+# scratch order
+*and russian comment code for student*
 scratch project for practice js
 all links in work
 
